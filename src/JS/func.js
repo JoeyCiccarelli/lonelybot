@@ -8,11 +8,16 @@ document.getElementById('chatInput').addEventListener("keydown",function detectK
   }
 })
 function chat(text) {
-  if(text=="hello"){
-    addToOutput("i dont want to talk to you")
+  if(text=="hello"||text=="hey"){
+    output = ["Hi friend","Go away"]
+    addToOutput(chooseRandom(output))
   }
 }
 
 function addToOutput(value) {
   document.getElementById('chatOutput').innerText += value+"\n"
+}
+
+function chooseRandom(array){
+  return array[Math.floor(Math.random()*array.length)]
 }

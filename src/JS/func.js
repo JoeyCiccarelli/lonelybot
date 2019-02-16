@@ -8,7 +8,7 @@ document.getElementById('chatInput').addEventListener("keydown",function detectK
   }
 })
 function chat(text) {
-  if(text=="hello"||text=="hey"){
+  if(text=="hello"||text=="hey"||text=="hi"){
     output = ["Hi friend","Go away","i'm vegan","Bust down thotiana","I have a boyfriend"]
     addToOutput(chooseRandom(output))
   }

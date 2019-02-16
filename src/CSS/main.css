@@ -1,0 +1,30 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+#top{
+ -webkit-app-region: drag;
+  z-index: 100;
+  background-color: #222;
+  height: 3vh;
+  width:100vw;
+  position: fixed;
+  top:0;
+}
+#chatInput{
+  position: fixed;
+  top: 10vh;
+  background-color: black;
+  color: white;
+  border: none; 
+}
+#chatOutput{
+  overflow-y: scroll;
+  width: 50%;
+  height: 80%;
+  position: fixed;
+  top: 20vh;
+  background-color: black;
+  color: white;
+  border: none; 
+}

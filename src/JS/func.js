@@ -9,7 +9,7 @@ document.getElementById('chatInput').addEventListener("keydown",function detectK
 })
 function chat(text) {
   if(text=="hello"||text=="hey"){
-    output = ["Hi friend","Go away"]
+    output = ["Hi friend","Go away","i'm vegan","Bust down thotiana","I have a boyfriend"]
     addToOutput(chooseRandom(output))
   }
 }
